@@ -79,7 +79,7 @@ END
   popd
 }
 
-# Mirroring Automatic Releases
+# Mirroring Automatic Releases .
 rm -rf "/tmp/${ACTION_AUTOMATIC_RELEASES_REPO}"
 git clone "https://metaphoriker:${GITHUB_SUPER_TOKEN}@github.com/metaphoriker/${ACTION_AUTOMATIC_RELEASES_REPO}.git" /tmp/${ACTION_AUTOMATIC_RELEASES_REPO}
 cp -R packages/automatic-releases/dist /tmp/${ACTION_AUTOMATIC_RELEASES_REPO}/
