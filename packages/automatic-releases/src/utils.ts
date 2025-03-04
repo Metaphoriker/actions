@@ -49,7 +49,7 @@ enum ConventionalCommitTypes {
   ci = 'Continuous Integration',
   chore = 'Chores',
   revert = 'Reverts',
-  design = 'Design UX/UI'
+  design = 'Design UX/UI',
 }
 
 export type ParsedCommits = {
