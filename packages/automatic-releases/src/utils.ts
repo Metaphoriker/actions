@@ -42,12 +42,14 @@ enum ConventionalCommitTypes {
   docs = 'Documentation',
   style = 'Styles',
   refactor = 'Code Refactoring',
+  refact = 'Code Refactoring',
   perf = 'Performance Improvements',
   test = 'Tests',
   build = 'Builds',
   ci = 'Continuous Integration',
   chore = 'Chores',
   revert = 'Reverts',
+  design = 'Design UX/UI'
 }
 
 export type ParsedCommits = {
